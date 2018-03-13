@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    WELCOME
+    <p><%= @params %></p>
+    <% @display = "Puppy Name:\n" + @params["name"]%>
+    <%= @display %>
+    <% @display = "Puppy Breed:\n" + @params["breed"]%>
+    <%= @display %>
+    <% @display = "Puppy Age:\n" + @params["age"]%>
+    <%= @display %>
+
+  </body>
+</html>
