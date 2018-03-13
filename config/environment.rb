@@ -4,4 +4,4 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require './app'
-require_all 'models'
+require '/Users/shirleyzhang/Development/code/sinatra-basic-forms-lab-web-022018/models/puppy.rb'
